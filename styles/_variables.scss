@@ -1,0 +1,61 @@
+$base-color: #d4dddd;
+$card-color: #FFFFFF;
+$secondary-color: #007BFF;
+$danger-color: #D90000;
+$text-title-color: #213547;
+$text-color: #222222;
+$text-secondary-color: #A8A8A8;
+$box-shadow-color: #11111155;
+$border-radius: 14px;
+
+
+@mixin box-shadow {
+     box-shadow: 0 0 3px #11111122
+};
+
+@mixin delete-details-buttons {
+     background-color: transparent;
+     font-size: 12px;
+     border-radius: $border-radius;
+     padding: 4px 14px;
+     margin: 4px 10px;
+     cursor: pointer;
+     position: relative;
+     width: 90px;
+};
+
+@mixin post-reset-buttons {
+     color: #FFFFFF;
+     box-shadow: 0 0 4px $box-shadow-color;
+     cursor: pointer;
+     border-radius: $border-radius;
+     background-color: transparent;
+     font-size: 12px;
+     border-radius: $border-radius;
+     padding: 4px 14px;
+     margin: 4px 10px;
+     cursor: pointer;
+     position: relative;
+     width: 110px;
+};
+
+@mixin buttons-hover {
+     box-shadow: 0 0 6px $box-shadow-color;
+};
+
+@mixin delete-details-buttons-active {
+     box-shadow: 0 0 0 $box-shadow-color;
+     color: $card-color;
+};
+
+@mixin delete-details-buttons-SM {
+     top: 0px;
+     padding: 4px 24px;
+     margin: 20px 70px 0px;
+};
+
+@mixin content-width {
+     width: 70%;
+     max-width: 900px;
+     min-width: 472px;
+};
