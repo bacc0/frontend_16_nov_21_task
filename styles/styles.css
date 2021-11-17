@@ -193,6 +193,7 @@ body .card-container .card li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0 0 12px;
 }
 
 body .card-container .card span:nth-child(1) {

@@ -40,6 +40,8 @@ const DetailsData = ({ setEditUser }) => {
                                    <li><span>Plan number:</span> <span>{prop.plan}</span></li>
                                    {/* <li><span>Unit count:</span>  <span>{prop.units[0].id}</span></li> */}
                                    <li><span>City:</span>        <span>{prop.city}</span></li>
+                                   <li><span>Account:</span>        <span>{prop.account}</span></li>
+                                   <li><span>Previous Manager:</span>        <span>{prop.previousManager}</span></li>
 
                                    
 
@@ -48,6 +50,8 @@ const DetailsData = ({ setEditUser }) => {
                                    <li><span>Region: </span> <span>{prop.region}</span></li>
                                    <li><span>Manager: </span> <span>{prop.manager}</span></li>
                                    <li><span>Plan Registered: </span> <span>{prop.planRegistered}</span></li>
+                                   <li><span>Management Company:</span>        <span>{prop.managementCompany}</span></li>
+                                   <li><span>ABN:</span>        <span>{prop.abn}</span></li>
 
                    
                               </ul>
