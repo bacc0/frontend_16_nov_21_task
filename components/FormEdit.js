@@ -180,7 +180,7 @@ const FormEdit = ({ setEditUser }) => {
                          </label>
                     </form>
                </div>
-               <div className='container-edit-cancel-button'>
+               <div className='container-submit-button'>
                     <motion.button
                          className='button-post'
                          onClick={() => {

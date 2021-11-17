@@ -22,7 +22,12 @@ body {
           flex-direction: row-reverse;
           padding: 8px 15vw 40px;
      }
-
+     
+     .container-submit-button {
+          display: flex;
+          flex-direction: row-reverse;
+          padding: 8px 15vw 40px;
+     }
      .container-edit-create-cancel-button {
           display: flex;
           flex-direction: row-reverse;
